@@ -38,28 +38,26 @@ function App() {
 
         <div className="right">
           <div className="main-chat__container">
-            <ul className="main-chat__messages">
-              <li className="main-chat__messages-element">Lorem, ipsum.</li>
-              <li className="main-chat__messages-element">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, voluptatem!</li>
-              <li className="main-chat__messages-element">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime deleniti illum a architecto. Cupiditate temporibus laudantium officia accusantium magni debitis ut, dignissimos ratione minima maiores.</li>
-              <li className="main-chat__messages-element">Lorem ipsum dolor sit.</li>
-              <li className="main-chat__messages-element">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aperiam!</li>
-              <li className="main-chat__messages-element">Lorem, ipsum dolor.</li>
-              <li className="main-chat__messages-element">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolor tenetur libero reiciendis, debitis doloremque?</li>
-              <li className="main-chat__messages-element">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-              <li className="main-chat__messages-element">Lorem ipsum dolor sit amet.</li>
-              <li className="main-chat__messages-element">Lorem ipsum dolor sit amet consectetur.</li>
-              <li className="main-chat__messages-element">Lorem ipsum dolor sit.</li>
-              <li className="main-chat__messages-element">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium autem expedita soluta.</li>
-              <li className="main-chat__messages-element">Lorem.</li>
-              <li className="main-chat__messages-element">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium culpa quisquam fugit ad.</li>
-              <li className="main-chat__messages-element">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugiat enim quibusdam.</li>
-              <li className="main-chat__messages-element">Lorem, ipsum.</li>
-              <li className="main-chat__messages-element">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit harum est maiores earum iure ipsum.</li>
-              <li className="main-chat__messages-element">Lorem ipsum dolor sit.</li>
-              <li className="main-chat__messages-element">Lorem.</li>
-              <li className="main-chat__messages-element">Lorem.</li>
-            </ul>
+            <p className="main-chat__messages-element">Lorem, ipsum.</p>
+            <p className="main-chat__messages-element">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, voluptatem!</p>
+            <p className="main-chat__messages-element">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime deleniti illum a architecto. Cupiditate temporibus laudantium officia accusantium magni debitis ut, dignissimos ratione minima maiores.</p>
+            <p className="main-chat__messages-element">Lorem ipsum dolor sit.</p>
+            <p className="main-chat__messages-element">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aperiam!</p>
+            <p className="main-chat__messages-element">Lorem, ipsum dolor.</p>
+            <p className="main-chat__messages-element">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolor tenetur libero reiciendis, debitis doloremque?</p>
+            <p className="main-chat__messages-element">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p className="main-chat__messages-element">Lorem ipsum dolor sit amet.</p>
+            <p className="main-chat__messages-element">Lorem ipsum dolor sit amet consectetur.</p>
+            <p className="main-chat__messages-element">Lorem ipsum dolor sit.</p>
+            <p className="main-chat__messages-element">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium autem expedita soluta.</p>
+            <p className="main-chat__messages-element">Lorem.</p>
+            <p className="main-chat__messages-element">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium culpa quisquam fugit ad.</p>
+            <p className="main-chat__messages-element">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugiat enim quibusdam.</p>
+            <p className="main-chat__messages-element">Lorem, ipsum.</p>
+            <p className="main-chat__messages-element">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit harum est maiores earum iure ipsum.</p>
+            <p className="main-chat__messages-element">Lorem ipsum dolor sit.</p>
+            <p className="main-chat__messages-element">Lorem.</p>
+            <p className="main-chat__messages-element">Lorem.</p>
           </div>
         </div>
       </section>

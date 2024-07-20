@@ -5,10 +5,8 @@
 
 /* Шапка header*/
 .name {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
+    align-items: start;
+    text-align: left;
     height: 50px;
     width: 100%;
 }
@@ -35,18 +33,22 @@
 .main-users__extra {
     display: flex;
     flex-direction: column;
+    align-items: start;
+    top: 0;
     height: calc(100vh - var(--header-and-footer-height));
 
     overflow-y: scroll;
 }
 
 .main-users__extra-element {
-    padding: 15px 0;
+    text-align: left;
+    padding: 0 0 40px 0;
 }
 
-.main-chat__messages {
+.main-chat__container {
     display: flex;
     flex-direction: column;
+    align-items: start;
     height: calc(100vh - var(--header-and-footer-height));
 
     overflow-y: scroll;
@@ -54,17 +56,17 @@
 
 .main-chat__messages-element {
     font-size: 24px;
-    padding: 10px 2px;
+    padding: 0 0 30px 0;
+    text-align: left;
 }
 
 /* footer */
 .input-message__container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
 
-    padding: 10px 10px;
+    padding: 0 10px 10px 0;
 
     height: 100px;
 }
@@ -82,13 +84,9 @@
 .message-sender__button {
     display: flex;
     align-items: center;
-    justify-content: center;
     border-radius: 10px;
     border: 1px solid black;
     height: 30px;
-
-    top: 50%;
-    left: 50%;
 
     transition: opacity .25s ease;
 }
